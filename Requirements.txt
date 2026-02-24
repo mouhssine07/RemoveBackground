@@ -1,9 +1,7 @@
-streamlit
-rembg
-pillow
-onnxruntime
-numpy
-scipy
-scikit-image
-pooch
-requests
+streamlit>=1.28.0
+Pillow>=9.0.0
+numpy>=1.23.0
+onnxruntime>=1.16.0
+rembg>=2.0.50
+pooch>=1.6.0
+scipy>=1.9.0
