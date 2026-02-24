@@ -1,0 +1,6 @@
+rembg
+pillow
+onnxruntime
+numpy
+pooch
+scipy
