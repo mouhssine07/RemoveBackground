@@ -87,7 +87,7 @@ def to_png_bytes(img: Image.Image) -> bytes:
     return buf.getvalue()
 
 
-def apply_bg_color(img: Image.Image, color: str | None) -> Image.Image:
+def apply_bg_color(img: Image.Image, color=None) -> Image.Image:
     """Composite the RGBA image onto a solid color background if a color is given."""
     if not color:
         return img
